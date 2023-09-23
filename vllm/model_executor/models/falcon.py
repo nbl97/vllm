@@ -24,7 +24,7 @@ from typing import List, Optional, Tuple, Union
 import torch
 from torch import nn
 from torch.nn import LayerNorm
-from transformers import FalconConfig as HF_FalconConfig
+# from transformers import FalconConfig as HF_FalconConfig
 
 from vllm.model_executor.input_metadata import InputMetadata
 from vllm.model_executor.layers.attention import (PagedAttention,
@@ -43,7 +43,7 @@ from vllm.sequence import SamplerOutput
 from vllm.transformers_utils.configs import RWConfig
 
 KVCache = Tuple[torch.Tensor, torch.Tensor]
-FalconConfig = Union[HF_FalconConfig, RWConfig]
+# FalconConfig = Union[HF_FalconConfig, RWConfig]
 
 
 # NOTE(Hesslow): Unfortunately we did not fuse matmul and bias during

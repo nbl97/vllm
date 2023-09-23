@@ -16,18 +16,18 @@ _MODEL_REGISTRY = {
     "BaiChuanForCausalLM": BaiChuanForCausalLM,  # baichuan-7b
     "BaichuanForCausalLM": BaichuanForCausalLM,  # baichuan-13b
     "BloomForCausalLM": BloomForCausalLM,
-    "FalconForCausalLM": FalconForCausalLM,
+    # "FalconForCausalLM": FalconForCausalLM,
     "GPT2LMHeadModel": GPT2LMHeadModel,
     "GPTBigCodeForCausalLM": GPTBigCodeForCausalLM,
     "GPTJForCausalLM": GPTJForCausalLM,
     "GPTNeoXForCausalLM": GPTNeoXForCausalLM,
-    "InternLMForCausalLM": InternLMForCausalLM,
+    # "InternLMForCausalLM": InternLMForCausalLM,
     "LlamaForCausalLM": LlamaForCausalLM,
     "LLaMAForCausalLM": LlamaForCausalLM,  # For decapoda-research/llama-*
-    "MPTForCausalLM": MPTForCausalLM,
+    # "MPTForCausalLM": MPTForCausalLM,
     "OPTForCausalLM": OPTForCausalLM,
-    "QWenLMHeadModel": QWenLMHeadModel,
-    "RWForCausalLM": FalconForCausalLM,
+    # "QWenLMHeadModel": QWenLMHeadModel,
+    # "RWForCausalLM": FalconForCausalLM,
 }
 
 
